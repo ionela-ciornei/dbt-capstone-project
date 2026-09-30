@@ -1,0 +1,16 @@
+airstats:
+  outputs:
+    dev:
+      type: snowflake
+      account: gasivah-lf59680
+      user: dbt
+
+      role: TRANSFORM
+      private_key: "-----BEGIN ENCRYPTED PRIVATE KEY-----\nMIIFNTBfBgkqhkiG9w0BBQ0wUjAxBgkqhkiG9w0BBQwwJAQQ0JUcOLWA1TRY0ea7\nRHOAzwICCAAwDAYIKoZIhvcNAgkFADAdBglghkgBZQMEASoEEBpq7EduNpyFZNA6\n5vRpVcMEggTQC//FLWIHn7lkbqfPgSTvp58zn7reTzMqV7ah+R2MJkZ03IvgKC0e\nQOVjlZq5JOBKUIQAV6Qt1nBnn/xERBRc85SSFlrWyf88aZ3PEzbm5v6iw/VXJNn/\nfSCvNMfU22ekF9RLamf611UdFkj1uGS5wrmzvrq2qxz7Cd37YSmGm9gAfftag9Xg\n/DOGNwuiCPpTb3gm4rhvMlkHIksx67rtHkV8FV7wRK+XXttKe8HZidxV+4845h5Q\nheoK31ITdKlprKcy/zBMolf8m4OjwOBsVWArDsenbyWdRadYUf3JzwjjtgSwihBN\n/0VjfjwUhMGaZqQK6zE5USCcZq6cQbA2hMNRWH9hUeZxuGyAQa5M325bVI8iSqsL\nQAFEL1x0IoKZwmjoHgzBl0k+SXBZLwE7zNNDry2FRxeWJsvNdlnhTYBZESx44Wlk\nVYanoh5PHwcheeqxpnzETj1G4WcK7l/DnpA3riTmh2q50XydK3KfKcZZLRTKiAjD\npCpQHqtaRx65+fw6wYR2wWxw2MrRhynIa+BIoxbIrXSsnMWncF7NxB4hHl+hdVxZ\nfkN16tvfZpPht9j6rpEApl7La/exR1W1CPiS3wx99H4D/S6ZAEqoVbfnzcboKHgF\nq72Zcv2ho6rZP4ixziUNw38C6cOFevWTR715xyFQJO1ctPJcMNE6vVieuoqVZ+8i\ntSprNFH6D5ZqrDgMZ6vMeMC54kDuMlERJhj4PKTaBr0dYUKrEq/6GyvsQ/vmDJ8K\ndDud2jROgZIw4+vURp25dCk28X0rskGaDsfbTlTApLDbKKxWcSAAoG8j1Eszl4iI\nQ5MATfx/DOC2UQJPhpot/Kd/1803vNAfs77zpWnvT5wBXVcwlyp5KvdojM7wAjhC\ni98XiAB6XXUJK3T0EKpBYJ40XffuGKpseikseUO0eQA2GDdQi29OVPbx8jVPLTvI\nUxAVSo+BhLOSgOFuzUHAksh3heDOf1lAhlnvBfiC+XEzw2aKNOsHFsIlBD+bbtad\nkBo+5Gk5lqIoLSoTJyNb5oGbnRwNkSR9P/TwA767LXVMp8qrnM1Dt8i236pP62+m\nG3FPgNwUQRKFIeljQpDdc/cUI8d3qO2cdRBPtQITcwrUUcMw8LAvJf2EhArXsW7e\nB+8etoHZRfuzcl2uWajfmEB+pXXSaa+6mr1cEcCFbcL/0EoDTM2/qiwR13GJi5NB\nCFDW5tlnUi6H01UTDfn6S59rK7cCVXV9XGtDPZUHGChXsdmtKU/DHkCYuObwZUg1\nLGdEdP7q/euylDrR9B/MXSdyaUXQp1Ht3IMSWhxBWUkKzWf3YgVY8q/mU1OC8Y+6\n5rI6aViXgKpXTu4agVky8fJR9SrJftek4klPARvtWstqzKUT7R/mmMONCImRuhjO\nxr1f5C5tTgxSXEb+O3OL/P8lPvBpKyYOR2UkjKLVZnG2iaAnIeQdAN0XPXakKbeX\nmWpHkLaoFOzqhzXQoT+MAD6u4oNJ9TW+PKT0JDgeq/QbQr/fFpviPrkbRc4707PS\nA7ILzkg4aYz4YTvOyqMWrEk/UZ+xgnCs+K7WpoReFVI40gZP3yv4W0H3mXIMV+MY\nmKtWfHtVHuQUSqS/bl0v6hei76H2/KhwBJ/YwXTucx85lOxhbLZdKFQ=\n-----END ENCRYPTED PRIVATE KEY-----\n"
+      private_key_passphrase: q
+
+      database: AIRSTATS
+      schema: DEV
+      threads: 4
+      warehouse: COMPUTE_WH
+  target: dev
